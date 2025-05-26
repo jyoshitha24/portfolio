@@ -9,10 +9,7 @@ import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Moon, Sun } from 'lucide-react';
-import Resume from './components/resume';
-
-
-
+import Resume from './components/resume'; // 
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -48,8 +45,8 @@ function App() {
         <Projects />
         <Skills />
         <Certifications />
-        <Contact />
         <Resume />
+        <Contact />
       </main>
       
       <Footer />
